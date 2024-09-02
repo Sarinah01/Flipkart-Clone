@@ -1,0 +1,320 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+}
+    
+.navbar{
+    margin-top: 12px;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    border-bottom: 1.5px groove black;
+}
+.menuicon{
+    display: flex;
+    margin-left: 15px;
+    height: 50%;
+    width: 10px;
+    font-size: 20px;
+    background-size:contain;
+}
+.menuicon:hover{
+    opacity: 0.5;
+}
+
+.logo{
+    height:95%;
+    width: 125px;
+    margin-bottom: 30px;
+    background-image: url("flipkart.png");
+    background-size: cover;
+
+}
+
+.searchbar{
+    display: flex;
+    height: 50px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(181, 221, 239);
+    border-radius: 20px;
+}
+.searchbar:hover{
+    background-color:rgb(181, 221, 239,0.5); 
+    color: rgb(95, 95, 95);
+}
+.searchicon{
+    margin-top: 3px;
+    font-size:25px;
+    background-size: cover;
+    color: grey;
+}
+
+.fa-magnifying-glass:before{
+   margin-left: 8px;
+   margin-right: 10px; 
+}
+
+#searchtxt{
+    height: 50px;
+    width: 355px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(181, 221, 239);
+    color: grey;
+    border: transparent;
+}
+#searchtxt{
+    background-color:rgb(181, 221, 239,0.5); 
+    color: rgb(95, 95, 95);
+}
+
+.loginn{
+    display: flex;
+    height: 68px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+}
+.loginimg{
+    height: 50;
+    font-size: 30px;
+    margin: 4px;
+}
+
+
+.loginbtn{
+    border-radius: 50px;
+    border: transparent;
+    letter-spacing: 3px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    height: 38px;
+    width: 160px;
+    font-size: px;
+    color: rgb(223, 223, 236);
+    background-color: rgb(15, 15, 79);
+    transition: 0.8s ease-in-out;
+}
+.loginbtn:hover {
+    background-color:rgb(188, 209, 240);
+    border: 2px solid rgb(15, 15, 79);; 
+    color: black;
+}
+
+.cart{
+   display: flex;
+   height: 50%;
+   width:150px;
+   font-size:25px ;
+   font-weight: 700;
+   justify-content: center;
+   align-items: center;
+}
+.cart:hover{
+    opacity: 0.5;
+    transition: 0.8s ease-in-out;
+}
+.cartimg{
+    height: 30px;
+    width: 45px;
+    font-size: 30px;
+}
+
+.becomeseller{
+    display: flex;
+    height: 50px;
+    width: 250px;
+    font-size:23px ;
+    font-weight: 700;
+    justify-content: center;
+    transition: 0.8s ease-in-out;
+    align-items: center;
+}
+.becomeseller:hover{
+    opacity: 0.5;
+  
+}
+.shopimg{
+    height: 30px;
+    width: 45px;
+    font-size: 28px;
+    margin-left: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodycontent{
+   
+    background-image: linear-gradient(rgb(255,255,255), rgb(128, 128, 128,0.7));
+}
+
+/*Creating a image scrollbar*/
+.scrollbar{
+    height: 200px;
+    width: 400px;
+    margin: 10px 150px 10px 400px;
+    box-shadow: 8px 8px 10px gray;
+    background-color: rgb(149, 168, 185);
+    background-image: url("apple5.jpg");
+    border-radius: 10px;
+    background-size: contain;
+}
+
+.items{
+    display: flex;
+    width: 100%;
+}
+.cards{
+    height: 300px;
+    width: 300px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 4px;
+}
+
+
+img{
+    margin-left: 25px;
+    margin-top: 10px;
+    /* box-shadow: 5px 5px 3px gray , -1px -1px 2px gray; */
+    background-image: cover;
+    object-fit: cover;
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    transition: 0.6s;
+    backface-visibility: hidden;
+}
+img:hover{
+    opacity: 0.7;
+    height: 201px;
+    width:256px;
+    transition-timing-function: ease-in-out;
+    box-shadow: 0 0 2px 1px gray;
+}
+.content{
+    margin: 2px 3px 5px 35px;
+    height: 70px;
+    text-align: center;
+    word-wrap: break-word;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 23px;
+    text-shadow: -1px 0 black, 0 0.5px black, 0.5px 0 black, 0 -1px black;
+    text-shadow: 1px 1px 5px gray;
+    background-color:white;
+    color: black;
+}
+
+.last{
+    margin-right:15px ;
+}
+
+
+.pagination {
+    display: inline-block;
+    height: 50px;
+    width: 500px;
+    margin-left: 400px;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  .pagination a {
+    font-size: 16px;
+    color: black;
+    float: left;
+    margin: 2px;
+    padding: 13px 20px;
+    text-decoration: none;
+  }
+  .num{
+    box-shadow: 2px 2px 3px gray ,  -2px -2px 3px gray;
+  }
+  .arrow{
+    text-shadow: 2px 2px 5px gray;
+  }
+  .pagination a.active {
+    background-color: #0d264b;
+    color: white;
+    border: .5px solid white;
+    border-radius: 3px;
+  }
+  
+  .pagination a:hover:not(.active)
+   {background-color: #5f5d5d;
+    color: white;
+    border: white;
+    transition: .4s ease-in-out;
+}
+  
+footer{
+    background-color: black;
+    color: white;
+}
+.heading{
+    color: gray;
+    font-size: 18px;
+}
+ul{
+    margin-top: 25px;   
+    font-size: 13px;
+}
+ul a{
+    margin-top: 5px;
+    display: block;
+}
+
+
+.footpanel1{
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 100%;
+    padding-bottom: 90px;
+    border-bottom: 2px solid gray;
+  
+}
+
+.footpanel2{
+    height: 30px;
+    width: 100%;
+    border-bottom: 5px solid black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3px;
+    background-color: black;
+    color: white;
+}
+.exception{
+    display: inline;
+}
+
+.emptydiv{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+}
+.footpanel3{
+    height: 20px;
+    width: 100%;
+    font-size: 12px;
+    padding-top: 17px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
